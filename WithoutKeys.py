@@ -27,9 +27,9 @@ def WKey(y1,e1,y2,e2,N):
         y1=y2
         y2=c
     b=-b
-    result=pow(int(int(pow(y1,a)/pow(y2,b))+Exponent(pow(y1,a)%pow(y2,b),pow(y2,b),N)),1,N)
+    result=pow(int(int(pow(y1,a)//pow(y2,b))+Exponent(pow(y1,a)%pow(y2,b),pow(y2,b),N)),1,N)
     return result
-
+"""
 x=int(input("начальный текст:"))
 e1=int(input("первый ключ:"))
 e2=int(input("второй ключ:"))
@@ -37,6 +37,6 @@ N=int(input("модуль:"))
 y1=pow(x,e1,N)
 y2=pow(x,e2,N)
 print(WKey(y1,e1,y2,e2,N))
-
+"""
 
 
